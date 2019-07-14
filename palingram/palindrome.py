@@ -1,15 +1,6 @@
 from math import ceil
 #strings are a bunch of characters
 #array is a bunch of things (string is an array too!)
-dictionary = [
-    "malayalam",
-    "tacocat",
-    "bob",
-    "apple",
-    "banana",
-    "racecar",
-    "cherry"
-]
 
 def palindrome(wrd):
     for i in range(int(ceil(len(wrd)/2))):
@@ -22,6 +13,15 @@ def palindrome(wrd):
 
 
 def main():
+    dictionary = [
+        "malayalam",
+        "tacocat",
+        "bob",
+        "apple",
+        "banana",
+        "racecar",
+        "cherry"
+    ]
     for wrd in dictionary:
         if palindrome(wrd):
             print(wrd)
