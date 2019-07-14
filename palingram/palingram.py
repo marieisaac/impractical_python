@@ -8,9 +8,6 @@ def main():
         if palindrome.palindrome(s):
             print(s)
 
-
-
-
 if __name__ == "__main__":
     print("from palingram")
     main()
