@@ -27,7 +27,6 @@ def main():
             print(wrd)
 
 if __name__ == "__main__":
-    print("from palindrome")
     main()
 
 # def palindromeWRONG(wrd):
