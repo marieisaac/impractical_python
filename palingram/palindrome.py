@@ -13,18 +13,11 @@ def palindrome(wrd):
 
 
 def main():
-    dictionary = [
-        "malayalam",
-        "tacocat",
-        "bob",
-        "apple",
-        "banana",
-        "racecar",
-        "cherry"
-    ]
-    for wrd in dictionary:
-        if palindrome(wrd):
-            print(wrd)
+    d = open("words.txt", "r")
+    for line in d:
+        s = line.strip()
+        if palindrome(s):
+            print(s)
 
 if __name__ == "__main__":
     main()
